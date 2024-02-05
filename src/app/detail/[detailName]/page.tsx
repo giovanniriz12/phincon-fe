@@ -58,6 +58,9 @@ const DetailPage = ({ params }: { params: { detailName: string } }) => {
   return (
     <div className="container-fluid">
       <div className="row">
+        <div className="col-md-12 text-center mt-2">
+          <h1>Pokemon Detail</h1>
+        </div>
         <div className="col-md-12 d-flex justify-content-center mt-5">
           <div className="card" style={{ width: "30rem" }}>
             <div className="card-body">
